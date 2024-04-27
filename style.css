@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope",'Courier New', Courier, monospace;
+    /*font-size: medium;*/
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #1c2731;
+    box-sizing: border-box;
+}
+
+.login{
+    height: 30rem;
+    /*width: 25rem;*/
+    background-color: white;
+    margin-top: 15vh;
+    border-radius: 10px;
+}
+
+.text{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+.input input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin: 15px;
+    height: 30px;
+    width: 22rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    font-weight: 500;
+}
+
+.l_fp{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+.l_fp a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    height: 3rem;
+    width: 23.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    background-color: #10c099;
+}
+
+.socMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socMedia li{
+    list-style: none;
+    display: inline;
+}
+.socMedia li img{
+
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 12px;
+}
+.media1 img{
+    background-color: white;
+    border: #887f7f solid 1.5px;
+}
+.media2 img{
+    padding: 11.5px !important;
+    background-color: #1d2833;
+}
+
+/*Line*/
+.line{
+    position: relative;
+    height: 2px;
+    width: 95%;
+    left: 10px;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+.line::before{
+    content: 'Or Log In';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: #d4d4d4;
+    padding: 0 15px;
+}
+
+/**/
+.link_color{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+.link_color p{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #887f7f;
+    cursor: pointer;
+}
